@@ -1,0 +1,22 @@
+...use 
+my_list = ["2134","3412","6421","8723","9239","1234","2345"]
+b=sorted(my_list)
+b.reverse()
+anna_list=b
+print anna_list[0]
+print anna_list[1]
+print anna_list[2]
+...
+
+... 
+my_list = [2134,3412,6421,8723,9239,1234,2345]
+new_list = []
+
+i= my_list[0]  
+for x in my_list: 
+    if x > i:
+            i= x
+	    new_list.append(i)
+	    my_list.remove(i)    
+	    print new_list
+...
