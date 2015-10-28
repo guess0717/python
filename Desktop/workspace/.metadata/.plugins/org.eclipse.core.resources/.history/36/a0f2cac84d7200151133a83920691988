@@ -1,0 +1,15 @@
+package com.anna.park;
+
+public class Car {
+	String enter,leave,carid;
+	
+	public void car(){
+		
+	}
+	public static void main(String[] args) {
+		CarTime anna = new CarTime();
+		anna.time("2015-10-10 15:00", "2015-10-10 19:00", "1136-QX");
+	
+	}
+
+}

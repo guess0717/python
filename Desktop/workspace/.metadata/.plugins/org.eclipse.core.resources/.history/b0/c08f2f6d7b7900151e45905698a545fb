@@ -1,0 +1,26 @@
+package com.anna.gui;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class MyFrame extends JFrame{
+		public MyFrame (){
+			setSize(400, 300);
+			JButton b = new JButton("HELLO");
+			setLayout(new FlowLayout());
+			add(b);
+			MyActionListener listener = new MyActionListener();
+			b.addActionListener(listener);
+			setVisible(true);
+			setDefaultCloseOperation( DISPOSE_ON_CLOSE);
+		}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.anna; 
+
+public class Person {
+	
+
+	public void sayhello(){
+		System.out.println("Hello World");
+		
+	}
+
+	public static void main(String[] args){
+		Person p = new Person();
+		p.sayhello();
+		
+		float w = 46.2f ;
+		float h = 1.56f ; // 公尺
+		float bmi = w / (h*h);
+		System.out.println(bmi);
+		
+		
+	}
+
+}
