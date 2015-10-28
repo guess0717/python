@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;c&apos; in &apos;com.anna.parkinglot.jdbc.MySqlTester.main(...)&apos; to &apos;car&apos;&#x0D;&#x0A;- Original project: &apos;myproject&apos;&#x0D;&#x0A;- Original element: &apos;com.anna.parkinglot.jdbc.MySqlTester.main(String[]).c&apos;&#x0D;&#x0A;- Renamed element: &apos;c&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;c&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.anna.parkinglot.jdbc{MySqlTester.java[MySqlTester~main~\[QString;@c!1037!1062!1041!1041!QCar;!0!false" name="car" references="true" stamp="1445945501343" version="1.0"/>
-</session>
